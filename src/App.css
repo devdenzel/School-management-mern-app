@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Home CSS */
+
+/* Hero text font */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+/* Body font */
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap');
+
+/* Hero "Seemless" font */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+/* Business name */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+
+/* Heading font */
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@600&display=swap');
+*{
+    overflow-y: none;
+}
+.herotext{
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.name{
+    font-family: 'Monoton', cursive;
+}
+.bus-name{
+    font-family: 'Space Grotesk', sans-serif;
+}
+.heading{
+    font-family: 'Geologica', sans-serif;
+}
+body{
+    font-family: 'Geologica', sans-serif;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    overflow-y: none;
+    box-sizing: border-box;
+    
+}
+
+
+/* fix to tailwind spacing */
+.spaceing{
+    word-spacing: -3px;
+}
+
+/* Nav positioning */
+
+.navbar{
+    position: fixed;
+    z-index: 99;
+}
+
+
+/* Ion Icons */
+.icons{
+    font-size: 60px;
+    margin-top: 2px;
+}
