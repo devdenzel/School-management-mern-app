@@ -43,9 +43,9 @@ export default function Signup() {
             <Form.Label> Password:  </Form.Label>
             <input className='m-2 border-b-2 bg-white px-1' type="password" ref={passwordRef} required/>
           </Form.Group>
-          <Form.Group id='password-confirm'>
-            <Form.Label className='m-2 border-b-2 bg-white px-1'>Confirm password: </Form.Label>
-            <Form.Control type="password" ref={passwordConfirmRef} required/>
+          <Form.Group id='password'>
+            <Form.Label> Password:  </Form.Label>
+            <input className='m-2 border-b-2 bg-white px-1' type="password" ref={passwordConfirmRef} required/>
           </Form.Group>
           <button disabled={loading} className='hover:bg-gray-800 text-white bg-green-400 rounded-md px-5 py-1' type='submit'>Sign Up</button>
         </Form>
